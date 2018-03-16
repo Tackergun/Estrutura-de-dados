@@ -13,7 +13,8 @@ function chal01(){
         break;
 
         case "3":
-        array.splice(3,1); //remove o 4
+        /* array.splice(3,1); remove o 4 <- metodo splice
+        A ação de remover deve ser feita sem comandos*/
         break;
 
         case "4":
@@ -27,6 +28,4 @@ function chal01(){
         alert("invalid number");
         break;
    }
-   
-   console.log(array);
 }
